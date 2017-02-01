@@ -49,7 +49,7 @@ In order to do that you can create an event listener that will send the email.
             }
 
             $message = \Swift_Message::newInstance()
-                ->setSubject('A product modification event have been fired')
+                ->setSubject('A product modification event has been fired')
                 ->setFrom('no-reply@example.com')
                 ->setTo('me@example.com')
                 ->setBody('...')
